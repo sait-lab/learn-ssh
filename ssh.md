@@ -119,11 +119,14 @@ Credit: https://developer.ibm.com/articles/au-sshsecurity/
 > Example outputs of `ssh -V` command:
 >
 > ```
-> # On macOS Tahoe 26.4
-> OpenSSH_10.2p1, LibreSSL 3.3.6
+> # On macOS Tahoe 26.7.2
+> OpenSSH_10.5p1, LibreSSL 3.3.6
 > 
-> # On Ubuntu Linux 24.04.4 LTS
-> OpenSSH_9.6p1 Ubuntu-3ubuntu13.15, OpenSSL 3.0.13 30 Jan 2024
+> # On Ubuntu Linux 26.04.1 LTS
+> OpenSSH_10.2p1 Ubuntu-2ubuntu3.8, OpenSSL 3.5.5 27 Jan 2026
+> 
+> # On Debian 13 (codenamed "Trixie")
+> OpenSSH_10.0p2 Debian-7+deb13u4, OpenSSL 3.5.7 9 Jun 2026
 > 
 > # On Windows Server 2022/2025
 > OpenSSH_for_Windows_9.5p2, LibreSSL 3.8.2
@@ -202,7 +205,7 @@ SSH public key authentication is a secure method of logging into an SSH server w
 >
 > Read [What is SSH Public Key Authentication?](https://www.ssh.com/academy/ssh/public-key-authentication) for detailed information.
 >
-> The instructions for setting up SSH key-based authentication are available at: [Setup SSH Key-Based Authentication](https://github.com/sait-lab/devops/blob/main/Setup%20SSH%20Key-Based%20Authentication.md)
+> The instructions for setting up SSH key-based authentication are available at: [Setup SSH Key-Based Authentication](https://github.com/sait-lab/learn-ssh/blob/main/Setup%20SSH%20Key-Based%20Authentication.md)
 
 
 
